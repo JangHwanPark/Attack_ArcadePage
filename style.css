@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #2a2a2a;
+}
+
+.navbar-home {
+    font-size: 24px;
+}
+
+.navbar-menu {
+    display: flex;
+    padding-left: 0;
+}
+
+.navbar-menu > li {
+    padding: 8px 12px;
+}
