@@ -39,6 +39,14 @@ a {
     transition: all 0.5s;
 }
 
+
+
+/* main Tag */
+.center-wrapper {
+
+}
+
+
 /* media web */
 @media (max-width: 768px) {
     li {
