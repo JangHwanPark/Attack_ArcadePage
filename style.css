@@ -1,3 +1,8 @@
+/* default */
+* {
+    font-family: 'Golos Text', sans-serif;
+}
+
 li {
     list-style: none;
 }
@@ -12,7 +17,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
-    background-color: #2a2a2a;
+    background: linear-gradient(to top right, #373737, #1d1d1d);
 }
 
 .navbar-home {
@@ -26,4 +31,22 @@ a {
 
 .navbar-menu > li {
     padding: 8px 12px;
+}
+
+/* js */
+.navbar-menu > li:hover {
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+/* media web */
+@media (max-width: 768px) {
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #e0e0e0;
+    }
 }
